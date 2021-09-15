@@ -68,7 +68,7 @@ UartInit
 
 
     SerialPortInitialize();
-    DEBUG ((EFI_D_ERROR, "\nTianoCore on Sony Xperia Tablet S (ARM)\n"));
+    DEBUG ((EFI_D_ERROR, "\nTianoCore on Nvidia Tegra 3 (ARM)\n"));
     DEBUG ((EFI_D_ERROR,  "Firmware version %s built %a %a\n\n",
 	        (CHAR16*) PcdGetPtr(PcdFirmwareVersionString),
 			        __TIME__,
